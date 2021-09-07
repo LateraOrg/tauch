@@ -16,6 +16,17 @@ small {
   font-weight: 300;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1rem;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
 p {
   letter-spacing: 0.5px;
 }
@@ -78,6 +89,7 @@ h3.spaced {
   font-weight: 300;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding: 0.5rem;
 }
 
 h3.spaced-bold {
@@ -157,12 +169,16 @@ section#2 {
 }
 
 .three-chevrons {
-  text-align: center;
-  margin: 0.5rem;
+  margin: 8rem -2rem;
+  margin-left: 0rem;
 }
 
 .three-chevrons span {
   margin: -10px;
+}
+
+.three-chevrons-left {
+  margin-left: 8rem;
 }
 
 .four-chevrons-down > span:last-of-type svg {
