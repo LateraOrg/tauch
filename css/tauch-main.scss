@@ -156,6 +156,48 @@ section#2 {
   height: 200vw;
 }
 
+.three-chevrons {
+  text-align: center;
+  margin: 0.5rem;
+  span {
+    margin: -10px;
+  }
+}
+
+.four-chevrons-down > span:last-of-type {
+  svg {
+    margin-top: -50px;
+  }
+}
+
+.side-nav-left li > a > span > svg,
+.side-nav-right li > a > span > svg {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.side-nav-left li > a:link > span {
+  margin-right: -80px;
+}
+
+.side-nav-left li > a:active > span,
+.side-nav-left li > a:hover > span,
+.side-nav-left li > a:focus > span {
+  margin-right: -40px;
+}
+
+.side-nav-right {
+  text-align: right;
+}
+.side-nav-right li > a:link > span {
+  margin-right: -160px;
+}
+
+.side-nav-right li > a:active > span,
+.side-nav-right li > a:hover > span,
+.side-nav-right li > a:focus > span {
+  margin-right: -200px;
+}
+
 p.heavy {
   font-weight: 400;
 }
