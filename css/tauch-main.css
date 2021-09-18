@@ -18,6 +18,7 @@ small {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 li {
@@ -76,8 +77,59 @@ h3.is-bold {
   font-size: 60px;
   line-height: 109px;
   font-weight: 300;
-  padding-top: 3rem;
+  padding: 3rem;
   margin-bottom: 3rem;
+}
+
+.title > .was {
+  text-align: left;
+  padding-left: 15%;
+}
+
+.title > .ist {
+  text-align: center;
+  font-size: 50px;
+}
+
+.title > .mir {
+  text-align: right;
+  font-size: 70px;
+}
+
+.title > .wichtig {
+  text-align: right;
+  padding-right: 10%;
+  font-size: 80px;
+  line-height: 130px;
+}
+
+.title > .question1 {
+  text-align: center;
+  font-size: 100px;
+  line-height: 130px;
+}
+
+.title > .question2 {
+  padding-left: 55%;
+  padding-top: 100px;
+}
+
+.title > .der {
+  padding-left: 60%;
+}
+
+.title > .fur {
+  padding-left: 55%;
+}
+
+.title > .meine {
+  padding-left: 35%;
+}
+
+.title > .grund {
+  font-size: 70px;
+  text-align: left;
+  padding-left: 20%;
 }
 
 h3.spaced {
@@ -185,33 +237,57 @@ section#2 {
   margin-top: -50px;
 }
 
-.side-nav-left li > a > span > svg,
-.side-nav-right li > a > span > svg {
-  color: rgba(255, 255, 255, 0.7);
+.side-nav-left li > a > img,
+.side-nav-right li > a > img {
+  height: 100px;
 }
 
-.side-nav-left li > a:link > span {
-  margin-right: -80px;
+.side-nav-left li > a:link > img:nth-child(1) {
+  margin-right: -30px;
 }
 
-.side-nav-left li > a:active > span,
-.side-nav-left li > a:hover > span,
-.side-nav-left li > a:focus > span {
-  margin-right: -40px;
+.side-nav-left li > a:link > img:nth-child(2),
+.side-nav-left li > a:link > img:nth-child(4) {
+  display: none;
+}
+
+.side-nav-left li > a:active > img,
+.side-nav-left li > a:hover > img,
+.side-nav-left li > a:focus > img {
+  display: inline-block !important;
+  margin-right: 60px !important;
+}
+
+.side-nav-left li > a:active > img:nth-child(3),
+.side-nav-left li > a:hover > img:nth-child(3),
+.side-nav-left li > a:focus > img:nth-child(3) {
+  margin-right: -30px !important;
 }
 
 .side-nav-right {
   text-align: right;
 }
 
-.side-nav-right li > a:link > span {
-  margin-right: -160px;
+.side-nav-right li > a:link > img:nth-child(1) {
+  margin-right: -30px;
 }
 
-.side-nav-right li > a:active > span,
-.side-nav-right li > a:hover > span,
-.side-nav-right li > a:focus > span {
-  margin-right: -200px;
+.side-nav-right li > a:link > img:nth-child(2),
+.side-nav-right li > a:link > img:nth-child(4) {
+  display: none;
+}
+
+.side-nav-right li > a:active > img,
+.side-nav-right li > a:hover > img,
+.side-nav-right li > a:focus > img {
+  display: inline-block !important;
+  margin-right: -160px !important;
+}
+
+.side-nav-right li > a:active > img:nth-child(4),
+.side-nav-right li > a:hover > img:nth-child(4),
+.side-nav-right li > a:focus > img:nth-child(4) {
+  margin-left: 80px !important;
 }
 
 p.heavy {
@@ -221,6 +297,5 @@ p.heavy {
 .foot {
   height: 1100px;
   padding-top: 100px;
-  padding-left: 20px;
 }
 /*# sourceMappingURL=tauch-main.css.map */
