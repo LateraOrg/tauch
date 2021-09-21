@@ -77,8 +77,14 @@ h3.is-bold {
   font-size: 60px;
   line-height: 109px;
   font-weight: 300;
-  padding: 3rem;
   margin-bottom: 3rem;
+  padding: 3rem 0.5rem;
+}
+
+@media (min-width: 400px) {
+  .title {
+    padding: 3rem;
+  }
 }
 
 .title > .was {

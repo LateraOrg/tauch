@@ -79,9 +79,12 @@ h3.is-bold {
   font-size: 60px;
   line-height: 109px;
   font-weight: 300;
-  padding: 3rem;
   margin-bottom: 3rem;
-  // width: 100%;
+  padding: 3rem 0.5rem;
+
+  @media (min-width: 400px) {
+    padding: 3rem;
+  }
 
   > .was {
     text-align: left;

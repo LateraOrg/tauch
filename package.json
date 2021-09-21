@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "sergey --watch",
-    "build": "sergey --exclude=LICENSE,README.md,.vscode"
+    "build": "sergey --exclude=LICENSE,README.md,.vscode --output=/docs"
   },
   "repository": {
     "type": "git",
