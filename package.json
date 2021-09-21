@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sergey --watch",
-    "build": "sergey --exclude=LICENSE,README.md,.vscode --output=/docs"
+    "dev": "sergey --exclude=docs,LICENSE,README.md,.vscode --watch",
+    "build": "sergey --exclude=public,LICENSE,README.md,.vscode --output=docs"
   },
   "repository": {
     "type": "git",
