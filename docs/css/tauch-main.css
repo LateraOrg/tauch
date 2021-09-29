@@ -243,6 +243,10 @@ section#2 {
   margin-top: -50px;
 }
 
+#questions-nav {
+  min-height: 400px;
+}
+
 .side-nav-left li > a > img,
 .side-nav-right li > a > img {
   height: 100px;
