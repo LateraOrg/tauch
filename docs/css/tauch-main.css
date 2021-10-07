@@ -71,6 +71,10 @@ h3.is-bold {
   margin: 0;
 }
 
+#title-top {
+  padding-top: 22rem;
+}
+
 .title {
   text-transform: uppercase;
   text-align: center;
@@ -262,14 +266,12 @@ section#2 {
 }
 
 .side-nav-left li > a:active > img,
-.side-nav-left li > a:hover > img,
 .side-nav-left li > a:focus > img {
   display: inline-block !important;
   margin-right: 60px !important;
 }
 
 .side-nav-left li > a:active > img:nth-child(3),
-.side-nav-left li > a:hover > img:nth-child(3),
 .side-nav-left li > a:focus > img:nth-child(3) {
   margin-right: -30px !important;
 }
@@ -288,14 +290,12 @@ section#2 {
 }
 
 .side-nav-right li > a:active > img,
-.side-nav-right li > a:hover > img,
 .side-nav-right li > a:focus > img {
   display: inline-block !important;
   margin-right: -160px !important;
 }
 
 .side-nav-right li > a:active > img:nth-child(4),
-.side-nav-right li > a:hover > img:nth-child(4),
 .side-nav-right li > a:focus > img:nth-child(4) {
   margin-left: 80px !important;
 }
@@ -307,5 +307,11 @@ p.heavy {
 .foot {
   height: 1100px;
   padding-top: 100px;
+}
+
+.foot #made-with {
+  margin-left: 1rem;
+  margin-top: 26rem;
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=tauch-main.css.map */

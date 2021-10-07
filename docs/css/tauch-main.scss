@@ -73,6 +73,9 @@ h3.is-bold {
   margin: 0;
 }
 
+#title-top {
+  padding-top: 22rem;
+}
 .title {
   text-transform: uppercase;
   text-align: center;
@@ -257,7 +260,6 @@ section#2 {
 }
 
 .side-nav-left li > a:active,
-.side-nav-left li > a:hover,
 .side-nav-left li > a:focus {
   & > img {
     display: inline-block !important;
@@ -282,7 +284,6 @@ section#2 {
 }
 
 .side-nav-right li > a:active,
-.side-nav-right li > a:hover,
 .side-nav-right li > a:focus {
   & > img {
     display: inline-block !important;
@@ -300,4 +301,10 @@ p.heavy {
 .foot {
   height: 1100px;
   padding-top: 100px;
+
+  #made-with {
+    margin-left: 1rem;
+    margin-top: 26rem;
+    margin-bottom: 2rem;
+  }
 }
